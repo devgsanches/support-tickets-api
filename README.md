@@ -34,11 +34,11 @@ Um sistema de gerenciamento de tickets desenvolvido em Node.js para controle de 
 
 ### Tickets
 
-- `POST /tickets` - Criar novo ticket
-- `GET /tickets` - Listar tickets
-- `PUT /tickets/:id` - Atualizar ticket
-- `PATCH /tickets/:id/close` - Fechar ticket
-- `DELETE /tickets/:id` - Remover ticket
+- `POST /tickets/store` - Criar novo ticket
+- `GET /tickets/index` - Listar tickets
+- `PUT /tickets/update/:id` - Atualizar ticket
+- `PATCH /tickets/close/:id` - Fechar ticket
+- `DELETE /tickets/delete/:id` - Remover ticket
 
 ## 🔧 Instalação
 
