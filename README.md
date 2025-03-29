@@ -26,6 +26,7 @@ Um sistema de gerenciamento de tickets desenvolvido em Node.js para controle de 
     ├── controllers/
     │   └── tickets/
     │       └── create.js
+    │            ...
     ├── database/
     │   ├── database.js
     │   └── db.json
