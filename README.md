@@ -21,14 +21,14 @@ Um sistema de gerenciamento de tickets desenvolvido em Node.js para controle de 
 - Persistência de dados em arquivo JSON
 
 ## 📁 Estrutura do Projeto
-src/
-├── controllers/
-│ └── tickets/
-│ └── create.js
-├── database/
-│ ├── database.js
-│ └── db.json
 
+    src/
+    ├── controllers/
+    │   └── tickets/
+    │       └── create.js
+    ├── database/
+    │   ├── database.js
+    │   └── db.json
 
 ## 📌 Endpoints
 
@@ -42,32 +42,28 @@ src/
 
 ## 🔧 Instalação
 
-```bash
-# Clone o repositório
-git clone [url-do-repositorio]
+    # Clone o repositório
+    git clone [url-do-repositorio]
 
-# Entre no diretório
-cd [nome-do-diretorio]
+    # Entre no diretório
+    cd [nome-do-diretorio]
 
-# Instale as dependências
-npm install
+    # Instale as dependências
+    npm install
 
-# Inicie o servidor
-npm run dev
-```
+    # Inicie o servidor
+    npm run dev
 
 ## 📝 Estrutura do Ticket
 
-```javascript
-{
-  id: "uuid-v4",
-  equipment: "string",
-  description: "string",
-  user_name: "string",
-  status: "open" | "closed",
-  solution?: "string" // apenas quando fechado
-}
-```
+    {
+      id: "uuid-v4",
+      equipment: "string",
+      description: "string",
+      user_name: "string",
+      status: "open" | "closed",
+      solution?: "string" // apenas quando fechado
+    }
 
 ## 🤝 Contribuição
 
@@ -78,10 +74,6 @@ Sinta-se à vontade para contribuir com o projeto:
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença [sua-licença]. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 Desenvolvido com ❤️ por Guilherme Sanches
