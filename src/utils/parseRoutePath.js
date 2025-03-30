@@ -1,4 +1,4 @@
-// permite que a rota seja compatível com parâmetros (seja, route params ou query params), estou certo?
+// permite que a rota seja compatível com parâmetros (seja, route params ou query params)
 
 // route params: /tickets/:id
 // query params: /tickets?page=1&limit=10
